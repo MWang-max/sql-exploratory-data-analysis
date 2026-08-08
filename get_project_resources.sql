@@ -19,6 +19,7 @@ CREATE TABLE eda_gold.dim_products(
     product_key INT,
     product_id INT,
     product_number NVARCHAR(50),
+    product_name NVARCHAR(50),
     category_id NVARCHAR(50),
     category NVARCHAR(50),
     subcategory NVARCHAR(50),
